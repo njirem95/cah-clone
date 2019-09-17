@@ -1,0 +1,1 @@
+{"version":3,"file":"SocketIOServerHandler.js","sourceRoot":"","sources":["../../src/websocket/SocketIOServerHandler.ts"],"names":[],"mappings":";;AACA,MAAa,qBAAqB;IAC9B,YAAoB,kBAA6C;QAA7C,uBAAkB,GAAlB,kBAAkB,CAA2B;IAEjE,CAAC;IAED,MAAM;QACF,qBAAqB;IACzB,CAAC;CACJ;AARD,sDAQC"}
