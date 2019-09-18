@@ -14,7 +14,7 @@ export class GameServerHandler implements Connection {
 
             this._events.forEach(function(event: Event, id: string) { 
                 session.on(id, function(data) {
-                     event.handle(data);
+                     event.handle(session, data);
                 });
             });
         });

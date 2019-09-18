@@ -1,3 +1,5 @@
+import * as socketio from "socket.io";
+
 export interface Event {
-    handle(data?: any): void;
+    handle(session: socketio.Socket, data?: any): void;
 }

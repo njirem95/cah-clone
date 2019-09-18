@@ -1,7 +1,8 @@
 import { Event } from "./Event";
+import * as socketio from "socket.io";
 
 export class DisconnectEvent implements Event {
-    public handle(data?: any): void {
-        console.log("A user disconnected");
+    public handle(session: socketio.Socket, data?: any): void {
+        console.log(`User ${session.handshake.address} disconnected.`);
     }
 }
